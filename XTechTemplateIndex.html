@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <!-- This is the HTML head. This is where links to stylesheets and other things go. You don't have to modify this section (other than the title!) -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom CSS - this is the stylesheet that you're editing -->
+    <link rel="stylesheet" href="XTechTemplateStyle.css">
+
+    <title>Your Own Website</title>
+  </head>
+
+  <!--The body div holds all of the content that you see on your page. Everything (divs, links, etc) you put on your page goes inside this div. -->
+  <body>
+
+    <!-- A div is basically a section that holds anything inside of it. You can give a div a height, width, background color, etc in your css file. This div has a class of container added to it, which is a Bootstrap default. Container is the main div that will hold the main content on the page. -->
+    <div class="container">
+
+      <!-- This div has a class row, which is a Bootstrap class. This div represents a row that stretches accross the entire width of the webpage -->
+      <div class="row">
+
+        <!--You can define a column within a row by creating a div with a class 'col'. For every div with class 'col' that you create, the webpage automatically adds another col of equal size. -->
+        <div class="col" id="leftSide">
+
+          <!-- This is how you link an image onto your page. Save all your images into your images folder and copy the filename into the 'src'. Set the width and height of the image to be a certain number of pixels to make sure it fits on your screen. -->
+            <img src="images/RPI.png" width="200px" height="200px"/>
+
+        <!-- when you're done filling up a div, make sure to close it!-->
+        </div>
+
+        <!-- Here's a second column with the id 'rightSide'. You can edit the styling of this column by referring to it as #rightSide in your css file. -->
+        <div class="col" id="rightSide">
+
+          <!-- h2 is a tag that you put around text. -->
+          <h2>Click the button below to see the RPI ITWS website:</h2>
+
+          <!-- These are 'a' elements, and the 'a' tag represents a link.  These links have two classes: btn and btn-primary. These are bootstrap classes that will style your links to look a certain way. These 'a' elements  each have an id. 'href' represents the link that you want to open when you click the button. -->
+          <a class="btn btn-primary" id="link1" href="https://science.rpi.edu/itws">Click me!</a>
+          <a class="btn btn-primary" id="link2" href="XTechTemplatePage2.html">Click here to go to a second personalized page.</a>
+
+        </div>
+
+      </div>
+
+      <!--This is a second row with no columns in it yet. If a row has no columns, whatever goes inside it will span the whole page -->
+      <div class="row" id="bottomSection">
+        <h1>You can split up the page into multiple rows/sections.</h1>
+      </div>
+    </div>
+
+  
+    <!--Script Files Needed for Bootstrap (don't touch these!): -->
+  	<!-- jQuery -->
+  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  	<!-- Popper for Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

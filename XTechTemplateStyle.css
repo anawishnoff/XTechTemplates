@@ -1,0 +1,28 @@
+/*
+Link to color picker which gives you HTML color codes (rgb form or #AAAAAA form is acceptable):
+https://www.rapidtables.com/web/color/color-picker.html
+*/
+
+body {
+	background-color: rgb(218,218,218);
+}
+
+#leftSide {
+	margin: 10px;
+	background-color: #3D89A9;
+}
+
+#rightSide {
+	margin: 10px;
+	background-color: #812E9A;
+}
+
+#bottomSection{
+	border-top-width: 2px;
+	border-top-color: #000000;
+	border-top-style: dotted;
+}
+
+#link2 {
+	margin-top: 10px;
+}
